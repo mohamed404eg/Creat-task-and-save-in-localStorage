@@ -1,0 +1,60 @@
+body {
+ margin: 0;
+ padding: 0;
+}
+#div {
+    background-color: aliceblue;
+    margin-top: 10px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    gap: 10px;
+    border: 1px solid rgba(54,57,60,.1);;
+}
+#inputTask {
+    width: 100%;
+    margin-top: 30px;
+    height: 40px;
+
+
+}
+
+#btnAdd {
+    height: 46px;
+    margin-top: 30px;
+    background-color: #865DFF;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#taskVeiw {
+    background-color: aliceblue;
+    margin-top: 20px;
+    min-height: 100px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.divstask {
+    background-color: #fff;
+    height: 20px;
+    padding: 20px;
+    border: 1px solid rgba(54,57,60,.1);;
+}
+
+.btn-delete {
+    position: absolute;
+    right: 20px;
+    border: none;
+    background-color: #865DFF;
+    color: #fff;
+    border-radius: 5px;
+    padding: 3px;
+    text-transform: uppercase;
+}
